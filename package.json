@@ -12,6 +12,7 @@
   "browser": "./src/lib.js",
   "types": "./src/lib.d.ts",
   "exports": {
+    "./package.json": "./package.json",
     ".": {
       "import": "./src/lib.mjs",
       "require": "./src/lib.js"
